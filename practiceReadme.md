@@ -1,30 +1,31 @@
-# dogs
+# idk
 
-  ## Title
-
-
+  // ## Title
 
 
+  //                     this is where different functions will be written for
+  //                     each markdown description, licensing, etc. 
 
-  ## Description
 
-
-
-  ##Licensing
+  // ## Description
 
 
 
-  ##Installation
-
-
-  ##Usage
-
-
-  ##Contribution
+  // ##Licensing
 
 
 
-  ##Testing
+  // ##Installation
+
+
+  // ##Usage
+
+
+  // ##Contribution
+
+
+
+  // ##Testing
 
 
 

@@ -1,6 +1,20 @@
-function render
+function renderLicenseLink(license) {
+  if (license !== "none") {
+    return ( `n*[License] (#license)`)
+  } return "";
+} 
 
-//make 3 render functions- link, badge, 
+function renderLicenseBadge(license) {
+  if (license !== "none") {
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg`
+  } return "";
+}
+
+
+
+function renderLicenseSection(license) {
+
+}
 //then template literal for all code 
 
 
@@ -17,7 +31,8 @@ function generateMarkdown(data) {
   //                     each markdown description, licensing, etc. 
 
 
-  // ## Description
+  // ## Table of Contents
+
 
 
 
