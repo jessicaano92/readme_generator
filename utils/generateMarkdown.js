@@ -1,11 +1,8 @@
+function render
 
-//pseudocode for homework
+//make 3 render functions- link, badge, 
+//then template literal for all code 
 
-//1. Ask all the questions- repo, etc.
-//2. Start generating the README file
-      //what item of the readme file am i writing (subheading, link)
-      //call that function and pass in the data it needs, will get back markdown code
-      //add markdown code to the README file
 
 
 
@@ -13,31 +10,32 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## Title
+  // ## Title
+
+
+  //                     this is where different functions will be written for
+  //                     each markdown description, licensing, etc. 
+
+
+  // ## Description
 
 
 
-
-
-  ## Description
-
-
-
-  ##Licensing
+  // ##Licensing
 
 
 
-  ##Installation
+  // ##Installation
 
 
-  ##Usage
+  // ##Usage
 
 
-  ##Contribution
+  // ##Contribution
 
 
 
-  ##Testing
+  // ##Testing
 
 
 

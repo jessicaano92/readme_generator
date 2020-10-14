@@ -9,6 +9,21 @@ const generateMarkdown = require("./utils/generateMarkdown")
 
 // array of questions for user
 const questions = [
+    {         //user name
+        type: "input",
+        message: "What is your name?",
+        name: "name"
+    },
+    {         //user email
+        type: "input",
+        message: "What is your email?",
+        name: "email"
+    },
+    {         //user Github username
+        type: "input",
+        message: "What is your Github username?",
+        name: "username"
+    },
     {       //project name
         type: "input",
         message: "What is your project name?",
@@ -48,21 +63,7 @@ const questions = [
           message: "What will you be testing?",
           name: "testing"
       },
-      {
-          type: "input",
-          message: "What is your name?",
-          name: "name"
-      },
-      {
-          type: "input",
-          message: "What is your email?",
-          name: "email"
-      },
-      {
-          type: "input",
-          message: "What is your Github username?",
-          name: "username"
-      }
+     
 
 ];
 
