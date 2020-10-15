@@ -1,20 +1,11 @@
-function renderLicenseLink(license) {
-  if (license !== "none") {
-    return ( `n*[License] (#license)`)
-  } return "";
-} 
+
 
 function renderLicenseBadge(license) {
-  if (license !== "none") {
-    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg`
-  } return "";
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
+  
 }
 
 
-
-function renderLicenseSection(license) {
-
-}
 //then template literal for all code 
 
 
@@ -22,40 +13,44 @@ function renderLicenseSection(license) {
 
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `${renderLicenseBadge(data.license)}
+  # ${data.projectName}
 
-  // ## Title
+  ## Description
+    ${data.projectDescription}
 
+  ## Table of Contents
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-  //                     this is where different functions will be written for
-  //                     each markdown description, licensing, etc. 
+  ## Installation
+    ${data.installation}
 
+  ## Usage
+    ${data.usage}
 
-  // ## Table of Contents
+  ## License
+    This project is licensed under the
+  ${data.license} license.
 
+  ## Contributing
+    ${data.contribution}
 
+  ## Tests
+    ${data.testing}
 
-
-  // ##Licensing
-
-
-
-  // ##Installation
-
-
-  // ##Usage
-
-
-  // ##Contribution
-
-
-
-  // ##Testing
-
-
+  ## Questions
+    Please contact ${data.email} for any questions
 
   
+    
+
+
 `;
 }
 
 module.exports = generateMarkdown;
+
+

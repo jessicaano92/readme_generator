@@ -27,19 +27,19 @@ const questions = [
     {       //project name
         type: "input",
         message: "What is your project name?",
-        name: "title"                                       
+        name: "projectName"                                       
       },
       {
         //project description
         type: "input",
         message: "What is your project description?",
-        name: "description"
+        name: "projectDescription"
       },
       {
           //licensing
         type: "checkbox",
         message: "Choose license for project",
-        name: "licensing",
+        name: "license",
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
       },
       {         //installation
