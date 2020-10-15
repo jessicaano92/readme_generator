@@ -39,7 +39,7 @@ const questions = [
           //licensing
         type: "checkbox",
         message: "Choose license for project",
-        name: "license",
+        name: "userLicense",
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
       },
       {         //installation

@@ -1,7 +1,7 @@
 
 
-function renderLicenseBadge(license) {
-    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
+function renderLicenseBadge(userLicense) {
+    return `![GitHub license](https://img.shields.io/badge/license-${userLicense}-blue.svg)`
   
 }
 
@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `${renderLicenseBadge(data.license)}
+  return `${renderLicenseBadge(data.userLicense)}
   # ${data.projectName}
 
   ## Description
@@ -33,7 +33,7 @@ function generateMarkdown(data) {
 
   ## License
     This project is licensed under the
-  ${data.license} license.
+  ${data.userLicense} license.
 
   ## Contributing
     ${data.contribution}

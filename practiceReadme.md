@@ -2,7 +2,7 @@
   # README.md Generator
 
   ## Description
-    Provide a README for user
+    Generate a README for user
 
   ## Table of Contents
 * [License](#license)
@@ -11,20 +11,20 @@
 * [Questions](#questions)
 
   ## Installation
-    none
+    Install all necessary dependencies
 
   ## Usage
-    project
+    Inquirier and path
 
   ## License
     This project is licensed under the
    license.
 
   ## Contributing
-    nothing
+    n/a
 
   ## Tests
-    nothing
+    n/a
 
   ## Questions
     Please contact jessicayaws@yahoo.com for any questions
