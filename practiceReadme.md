@@ -1,10 +1,8 @@
-# idk
-
- return `${renderLicenseBadge(data.license)}
-  # ${data.projectName}
+![GitHub license](https://img.shields.io/badge/license--blue.svg)
+  # README.md Generator
 
   ## Description
-    ${data.projectDescription}
+    Provide a README for user
 
   ## Table of Contents
 * [License](#license)
@@ -13,29 +11,25 @@
 * [Questions](#questions)
 
   ## Installation
-    ${data.installation}
+    none
 
   ## Usage
-    ${data.usage}
+    project
 
   ## License
     This project is licensed under the
-  ${data.license} license.
+   license.
 
   ## Contributing
-    ${data.contribution}
+    nothing
 
   ## Tests
-    ${data.testing}
+    nothing
 
   ## Questions
-    Please contact ${data.email} for any questions
+    Please contact jessicayaws@yahoo.com for any questions
 
   
     
 
 
-`;
-
-
-  
