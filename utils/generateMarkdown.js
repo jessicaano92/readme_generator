@@ -1,12 +1,24 @@
 
 
 function renderLicenseBadge(userLicense) {
+  if (userLicense !== "none"){
     return `![GitHub license](https://img.shields.io/badge/license-${userLicense}-blue.svg)`
-  
+  } return "";
 }
 
 
-//then template literal for all code 
+function renderLicenseSection (userLicense) {
+  if (userLicense !== "none") {
+    return (`## License
+    This project is licensed under the ${userLicense} license`)
+  }
+}
+
+function renderLicenseLink (userLicense) {
+  if (userLicense !== "none") {
+    return ( `\n * [userLicense](#license) \n`)
+  } return "";
+}
 
 
 
@@ -20,6 +32,9 @@ function generateMarkdown(data) {
     ${data.projectDescription}
 
   ## Table of Contents
+* [Installation](#installation)  
+* [Usage](#usage)
+    ${renderLicenseLink(data.userLicense)}
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
@@ -30,6 +45,8 @@ function generateMarkdown(data) {
 
   ## Usage
     ${data.usage}
+
+    
 
   ## License
     This project is licensed under the

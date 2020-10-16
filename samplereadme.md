@@ -1,37 +1,30 @@
 ![GitHub license](https://img.shields.io/badge/license--blue.svg)
-  # README generator
+  # readme generator
 
   ## Description
-    generate a good README for user
+    generates a readme
 
   ## Table of Contents
-* [Installation](#installation)  
-* [Usage](#usage)
-    
- * [userLicense](#license) 
-
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
 
   ## Installation
-    n/a
+    none
 
   ## Usage
-    n/a
-
-    
+    none
 
   ## License
     This project is licensed under the
    license.
 
   ## Contributing
-    n/a
+    none
 
   ## Tests
-    n/a
+    
 
   ## Questions
     Please contact jessicayaws@yahoo.com for any questions
