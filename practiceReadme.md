@@ -2,21 +2,24 @@
   # README generator
 
   ## Description
-    generate a good README for user
+    generates a good README for user
 
   ## Table of Contents
 * [Installation](#installation)  
 * [Usage](#usage)
+    
+ * [userLicense](#license) 
+
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
 
   ## Installation
-    n/a
+    none
 
   ## Usage
-    n/a
+    none
 
     
 
@@ -25,10 +28,10 @@
    license.
 
   ## Contributing
-    n/a
+    none
 
   ## Tests
-    n/a
+    none
 
   ## Questions
     Please contact jessicayaws@yahoo.com for any questions
