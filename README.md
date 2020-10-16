@@ -12,5 +12,7 @@ JSON, path, inquirer, fs
 
 ## Usage
 
+<img src="https://github.com/jessicaano92/readme_generator/blob/main/images/img%201.png?raw=true">
+<img src="https://github.com/jessicaano92/readme_generator/blob/main/images/img%202.png">
 
 
